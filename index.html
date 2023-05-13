@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Guess The Word Game</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.5/sweetalert2.min.css">
+</head>
+<body class="vh-100 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center mx-auto overflow-hidden">
+		<div class="col-md-6 bg-white border border-warning rounded-5 wrapper mx-auto">
+			<h1 class="m-3 text-center">Guess The Word</h1>
+			<hr />
+			<div class="content my-3 mx-1 text-center">
+				<input type="text" class="typing position-absolute" style="z-index: -9;" maxlength="1">
+				<div class="inputs d-flex justify-content-center flex-wrap"></div>
+				<div class="m-3">
+					<h5 class="m-1"><i>Hint:</i>&emsp;<strong><span class="hints text-primary text-capitalize"></span></strong></h5>
+					<h5 class="m-1"><i>Remaining Guesses:</i>&emsp;<strong><span class="guesses text-success"></span></strong></h5>
+					<h5 class="m-1"><i>Wrong Letters:</i>&emsp;<strong><span class="wrongs text-danger"></span></strong></h5>
+				</div>
+				<button class="btn btn-success w-50 p-3 fw-bold">Reset Game</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.5/sweetalert2.min.js"></script>
+		<script src="source.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
