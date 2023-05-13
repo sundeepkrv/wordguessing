@@ -4,6 +4,11 @@ A simple and intuitive word guessing game build using html, bootstrap and javasc
 
 ## Demo
 
+### Screenshot
+![Screenshot](https://raw.githubusercontent.com/sundeepkrv/wordguessing/main/demo/screenshot.png)
+
+### Working Demo
+![Demo](https://raw.githubusercontent.com/sundeepkrv/wordguessing/main/demo/wordguessing.gif)
 
 ## Deployment
 
